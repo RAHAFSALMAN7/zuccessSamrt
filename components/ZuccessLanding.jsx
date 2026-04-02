@@ -21,12 +21,47 @@ const translations = {
       subtitle: "كل ما تحتاجه لتحويل منزلك إلى منزل المستقبل",
       items: [
         { title: "التحكم الكامل", desc: "تحكم في كل جهاز في منزلك من أي مكان في العالم بضغطة واحدة" },
-        { title: "أمان متقدم", desc: "نظام حماية متطور بكاميرات ذكية وأقفال إلكترونية وإنذار فوري" },
+        { title: "أتمتة ذكية", desc: "سيناريوهات تلقائية ذكية تربط الإضاءة والمناخ والطاقة لتجربة منزلية أكثر كفاءة" },
         { title: "إضاءة ذكية", desc: "إضاءة تتكيف مع مزاجك وجدولك اليومي تلقائياً بدقة عالية" },
         { title: "تحكم بالحرارة", desc: "درجة حرارة مثالية في كل غرفة مع توفير استهلاك الطاقة" },
         { title: "مراقبة مباشرة", desc: "راقب منزلك مباشرة بجودة عالية في أي وقت ومن أي مكان" },
         { title: "تطبيق سهل", desc: "واجهة بسيطة وأنيقة تتيح لك إدارة كل شيء بسهولة تامة" },
+        {
+          title: "الأقفال الذكية",
+          desc: "نظام أقفال إلكترونية ذكية يتيح التحكم بالدخول وإدارة الصلاحيات بسهولة وأمان عالي، مع إمكانية التوسع وربطه بأنظمة أخرى.",
+        },
+        {
+          title: "الكاميرات الذكية",
+          desc: "نظام مراقبة متطور بكاميرات ذكية يوفر بث مباشر وتنبيهات فورية، لمتابعة كل شيء لحظة بلحظة.",
+        },
       ],
+    },
+    services: {
+      badge: "خدمات مستقلة",
+      title: "حلول أمنية مستقلة قابلة للتوسع",
+      subtitle: "كل خدمة مصممة لتعمل كمنتج مستقل مع مسار نمو وتوسع خاص بها",
+      pointsTitle: "أهم المزايا",
+      pathLabel: "مسار التوسع",
+      smartLocks: {
+        id: "smart-locks",
+        icon: "locks",
+        title: "Smart Locks",
+        subtitle: "نظام أقفال إلكترونية وتحكم دخول",
+        desc: "خدمة مستقلة لإدارة الأقفال الإلكترونية، منح الصلاحيات، وأتمتة سياسات الدخول للمنازل والمجمعات والشركات.",
+        value: "منتج قابل للتوسع نحو منصة إدارة وصول متكاملة مع فرص تكامل وسوق مستقبلي.",
+        path: "/smart-locks",
+        points: ["أكواد وصلاحيات دخول مرنة", "سجلات دخول لحظية وتنبيهات فورية", "تكامل مع سيناريوهات المنزل الذكي"],
+      },
+      smartCameras: {
+        id: "smart-cameras",
+        icon: "cameras",
+        title: "Smart Cameras",
+        subtitle: "نظام مراقبة مرئية وإنذارات فورية",
+        desc: "خدمة مراقبة مستقلة تركز على المتابعة المباشرة، التحليلات الذكية، والتنبيهات الفورية للحوادث والنشاطات غير المعتادة.",
+        value: "نظام منفصل بمسار توسع واضح نحو تغطية متعددة المواقع وإدارة مركزية للمراقبة.",
+        path: "/smart-cameras",
+        points: ["بث مباشر وتسجيلات آمنة", "تنبيهات لحظية للحركة والأحداث", "توسع سهل إلى مواقع وكاميرات إضافية"],
+      },
     },
     stats: [
       { value: 50, suffix: "K+", label: "مستخدم نشط" },
@@ -76,12 +111,47 @@ const translations = {
       subtitle: "Everything you need to transform your home into the future",
       items: [
         { title: "Full Control", desc: "Control every device in your home from anywhere in the world with one tap" },
-        { title: "Advanced Security", desc: "Sophisticated protection with smart cameras, electronic locks and instant alerts" },
+        { title: "Smart Automation", desc: "Intelligent routines that connect lighting, climate and energy flows for efficient living" },
         { title: "Smart Lighting", desc: "Lighting that adapts to your mood and daily schedule automatically with precision" },
         { title: "Climate Control", desc: "Perfect temperature in every room while saving energy consumption efficiently" },
         { title: "Live Monitoring", desc: "Monitor your home live in high quality at any time from anywhere you are" },
         { title: "Easy App", desc: "Simple and elegant interface that lets you manage everything with complete ease" },
+        {
+          title: "Smart Locks",
+          desc: "Smart electronic lock system that allows access control and permission management with high security, with the ability to scale and integrate with other systems.",
+        },
+        {
+          title: "Smart Cameras",
+          desc: "Advanced surveillance system with smart cameras that provides live streaming and instant alerts for real-time monitoring from anywhere.",
+        },
       ],
+    },
+    services: {
+      badge: "Independent Services",
+      title: "Two Standalone Security Products",
+      subtitle: "Each service is designed as a separate offering with its own growth and expansion roadmap",
+      pointsTitle: "Core Capabilities",
+      pathLabel: "Future module path",
+      smartLocks: {
+        id: "smart-locks",
+        icon: "locks",
+        title: "Smart Locks",
+        subtitle: "Electronic locks and access control",
+        desc: "A standalone service for electronic lock orchestration, permissions management, and automated access policies across homes and facilities.",
+        value: "Built as a scalable product line with clear marketplace and integration potential.",
+        path: "/smart-locks",
+        points: ["Flexible digital keys and access roles", "Real-time access logs and alerts", "Automation-ready for larger security ecosystems"],
+      },
+      smartCameras: {
+        id: "smart-cameras",
+        icon: "cameras",
+        title: "Smart Cameras",
+        subtitle: "Surveillance, monitoring, and real-time alerts",
+        desc: "An independent surveillance service focused on live monitoring, event detection, and instant notifications for proactive response.",
+        value: "Maintained as a separate system with its own expansion path for multi-site monitoring.",
+        path: "/smart-cameras",
+        points: ["Live feeds with secure recording", "Instant motion and event notifications", "Scales cleanly across more cameras and locations"],
+      },
     },
     stats: [
       { value: 50, suffix: "K+", label: "Active Users" },
@@ -155,7 +225,38 @@ const FeatureIcons = [
       <line x1="12" y1="18" x2="12.01" y2="18" />
     </svg>
   ),
+  () => (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="22" height="22">
+      <rect x="4" y="11" width="16" height="10" rx="2" />
+      <path d="M8 11V8a4 4 0 1 1 8 0v3" />
+      <circle cx="12" cy="16" r="1.2" />
+    </svg>
+  ),
+  () => (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="22" height="22">
+      <path d="M3 9h12a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H3z" />
+      <path d="M17 10l4-2v8l-4-2z" />
+      <circle cx="9" cy="12" r="2.1" />
+    </svg>
+  ),
 ];
+
+const ServiceIcons = {
+  locks: () => (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" width="28" height="28">
+      <rect x="4" y="11" width="16" height="10" rx="2" />
+      <path d="M8 11V8a4 4 0 1 1 8 0v3" />
+      <circle cx="12" cy="16" r="1.2" />
+    </svg>
+  ),
+  cameras: () => (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" width="28" height="28">
+      <path d="M3 9h12a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H3z" />
+      <path d="M17 10l4-2v8l-4-2z" />
+      <circle cx="9" cy="12" r="2.2" />
+    </svg>
+  ),
+};
 
 function AnimatedCounter({ value, suffix, duration = 2000 }) {
   const [count, setCount] = useState(0);
@@ -243,6 +344,44 @@ function FadeSection({ children, delay = 0, style = {}, className = "" }) {
   );
 }
 
+function ServiceSection({ service, pointsTitle, pathLabel, reverse = false }) {
+  const Icon = ServiceIcons[service.icon];
+
+  return (
+    <section className={`sect service-sect${reverse ? " service-sect-alt" : ""}`} id={service.id}>
+      <div className="sect-inner">
+        <div className={`service-grid${reverse ? " reverse" : ""}`}>
+          <FadeSection>
+            <div className="service-copy">
+              <span className="badge-label">{service.title}</span>
+              <h2 className="sect-h2">{service.subtitle}</h2>
+              <p className="sect-sub">{service.desc}</p>
+              <p className="service-value">{service.value}</p>
+            </div>
+          </FadeSection>
+          <FadeSection delay={120}>
+            <div className="service-card">
+              <div className="service-icon">
+                <Icon />
+              </div>
+              <div className="service-card-title">{pointsTitle}</div>
+              <ul className="service-list">
+                {service.points.map((point, idx) => (
+                  <li key={idx}>{point}</li>
+                ))}
+              </ul>
+              <div className="service-path">
+                <span>{pathLabel}</span>
+                <code>{service.path}</code>
+              </div>
+            </div>
+          </FadeSection>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function ZuccessLanding() {
   const [lang, setLang] = useState(() => {
     try {
@@ -255,6 +394,7 @@ export default function ZuccessLanding() {
   const [scrolled, setScrolled] = useState(false);
   const t = translations[lang];
   const isAr = lang === "ar";
+  const serviceModules = [t.services.smartLocks, t.services.smartCameras];
 
   useEffect(() => {
     try {
@@ -658,6 +798,117 @@ export default function ZuccessLanding() {
     .feat-title { font-size: 15.5px; font-weight: 700; color: #e2edf5; margin-bottom: 8px; }
     .feat-desc { font-size: 13.5px; color: #6a8faa; line-height: 1.8; }
 
+    .service-sect {
+      background: linear-gradient(180deg, #081426 0%, #0b1d30 100%);
+      border-top: 1px solid rgba(255,255,255,.04);
+      border-bottom: 1px solid rgba(255,255,255,.04);
+    }
+    .service-sect-alt {
+      background: linear-gradient(180deg, #07111f 0%, #0f223b 100%);
+    }
+    .service-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+    .service-grid.reverse .service-copy { order: 2; }
+    .service-grid.reverse .service-card { order: 1; }
+    .service-copy {
+      background: rgba(255,255,255,.02);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 24px;
+      padding: 32px 30px;
+    }
+    .service-value {
+      margin-top: 16px;
+      font-size: 14px;
+      line-height: 1.85;
+      color: #9dc3e4;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+    .service-card {
+      background: rgba(255,255,255,.035);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 24px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+    .service-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(125deg, rgba(74,143,212,.09), transparent 45%);
+    }
+    .service-icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 16px;
+      background: rgba(74,143,212,.15);
+      border: 1px solid rgba(74,143,212,.35);
+      color: #8bc3f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .service-card-title {
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+      color: #dcecf8;
+    }
+    .service-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    .service-list li {
+      position: relative;
+      color: #a6c4dc;
+      padding-${isAr ? "right" : "left"}: 18px;
+      font-size: 13.5px;
+      line-height: 1.75;
+    }
+    .service-list li::before {
+      content: '';
+      position: absolute;
+      top: 9px;
+      ${isAr ? "right" : "left"}: 0;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4a8fd4;
+      box-shadow: 0 0 0 4px rgba(74,143,212,.2);
+    }
+    .service-path {
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255,255,255,.08);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      color: #7fa4c2;
+      font-size: 12px;
+    }
+    .service-path code {
+      color: #d1e5f6;
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 9px;
+      padding: 6px 10px;
+      width: fit-content;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+    }
+
     .stats-sect {
       background: linear-gradient(135deg, #0b1d2e 0%, #0f2340 100%);
       padding: 80px 32px;
@@ -893,6 +1144,8 @@ export default function ZuccessLanding() {
 
     @media (max-width: 1024px) {
       .feat-grid { grid-template-columns: repeat(2,1fr); }
+      .service-grid { grid-template-columns: 1fr; }
+      .service-grid.reverse .service-copy, .service-grid.reverse .service-card { order: initial; }
       .footer-grid { grid-template-columns: 1fr 1fr; }
     }
     @media (max-width: 768px) {
@@ -1092,6 +1345,16 @@ export default function ZuccessLanding() {
           </div>
         </div>
       </section>
+
+      {serviceModules.map((service, index) => (
+        <ServiceSection
+          key={service.id}
+          service={service}
+          pointsTitle={t.services.pointsTitle}
+          pathLabel={t.services.pathLabel}
+          reverse={index % 2 === 1}
+        />
+      ))}
 
       <section className="stats-sect" id="stats">
         <div className="stats-grid">
