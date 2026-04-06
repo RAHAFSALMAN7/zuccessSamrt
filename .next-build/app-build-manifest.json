@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "pages": {
     "/page": [
       "static/chunks/webpack.js",
@@ -17,4 +18,7 @@
       "static/chunks/app/_not-found/page.js"
     ]
   }
+=======
+  "pages": {}
+>>>>>>> 8f489b7 (Add video section with vertical phone mockups)
 }

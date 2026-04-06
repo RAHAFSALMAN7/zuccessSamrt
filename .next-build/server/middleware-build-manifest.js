@@ -5,10 +5,14 @@ self.__BUILD_MANIFEST = {
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [],
+<<<<<<< HEAD
   "rootMainFiles": [
     "static/chunks/webpack.js",
     "static/chunks/main-app.js"
   ],
+=======
+  "rootMainFiles": [],
+>>>>>>> 8f489b7 (Add video section with vertical phone mockups)
   "pages": {
     "/_app": []
   },

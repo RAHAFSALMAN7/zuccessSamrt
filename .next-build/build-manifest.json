@@ -7,11 +7,15 @@
   "lowPriorityFiles": [
     "static/development/_buildManifest.js",
     "static/development/_ssgManifest.js"
+<<<<<<< HEAD
   ],
   "rootMainFiles": [
     "static/chunks/webpack.js",
     "static/chunks/main-app.js"
+=======
+>>>>>>> 8f489b7 (Add video section with vertical phone mockups)
   ],
+  "rootMainFiles": [],
   "pages": {
     "/_app": []
   },
